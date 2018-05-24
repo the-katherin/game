@@ -1,0 +1,30 @@
+form {
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+form button {
+  margin: 0px 10px;
+}
+
+form button:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+table {
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+.table  td,
+.table th {
+border: 1px solid black;
+text-align:  center;
+padding: 5px;
+
+}
