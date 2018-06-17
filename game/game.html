@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="loaderArea">
+    <div class="loader"></div>
+  </div>
+
+  <div class="form-wrapper">
+
+    <form action="get" name='userChoice' id='userDataForm'>
+      <h2>Welcome, Young Genius!</h2>
+      <input type="text" id='first-name' placeholder="Enter your Name" required>
+      <input type="text" id='last-name' placeholder="Enter your Last name" required>
+      <input type="email" id='email' placeholder="Enter your email" required>
+
+      <div class='game-characters'>
+        <input type="radio" name='userChoice' id='Boy' value='Boy' checked>
+        <label for="Boy"><img src="img/Idle__000.png" alt="game character 1"></label>
+        <input type="radio" name='userChoice' id='Girl' value="Girl">
+        <label for="Girl"><img src="img/Idle(1).png" alt="game character 2"></label>
+      </div>
+
+      <input type="submit" value="Let's go">
+    </form>
+  </div>
+
+  <div class="gameWindow">
+    <div class="gameWindowWrapper">
+      <div class='gameInterface'>
+        <div class='menu'><button id='menu'>Menu</button></div>
+        <div class='health-bar'>
+          <div class='player-data'>
+            <p id='userName' class='name'>Player Name</p>
+            <p>Health: <span id='playerHealth'>100</span></p>
+            <p>Score: <span id='playerScore'>0</span></p>
+          </div>
+
+          <div class='monster-data'>
+            <p id='monsterName' class='name'></p>
+            <p>Health: <span id='monsterHealth'>100</span></p>
+          </div>
+
+        </div>
+        <div class='spell-menu'><button id='spellsChoosingButton'>Choose the spell</button></div>
+      </div>
+      <canvas id="canvas">Your browser doesn't support canvas</canvas>
+    </div>
+  </div>
+
+
+  <div class="bg-opacity" id='bgOpacity'></div>
+
+  <div class="modal-window" id='modalWindow'>
+    <div class="modal-window-wrapper" id='modalWindowWrapper'>
+      <div class="modal-window-background">
+
+        <div class="spell-choosing-content" id='spellChoosingContent'>
+          <h2>Choose the spell</h2>
+          <ul id='spellsList'>
+            <li id='1'>Solve arithmetic problem: 20 points</li>
+            <li id='2'>Translation: 30 points</li>
+            <li id='3'>Craft a word: 15 points</li>
+            <li id='4'>Listening: 15 points</li>
+            <li id='5'>Define prime power: 10 points</li>
+            <li id='close'>Close</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="task-wrapper" id='taskWrapper'>
+      <div class="task-content">
+        <div class="task-window-background">
+          <div class="task" id='task'>
+            <p id='taskDescription'> tasktasktask</p>
+            <form action="get" id='userAnswer' name="user-answer">
+              <input type="text" name="user-answer" id="answerInput">
+              <input type="submit" value='Submit the answer' id='SubmitTheAnswer'>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="menu-window" id='menuWindow'>
+    <div class="menu-window-wrapper">
+      <div class="menu-window-background">
+
+        <div class="menu-content" id='menuContent'>
+          <h2>Menu</h2>
+          <button id='startNewGame'>Start New Game</button>
+          <button id='finishGame'>Finish Game</button>
+          <button id='closeMenu'>Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="results-window" id='resultsWindow'>
+    <div class="results-window-wrapper">
+      <div class="results-window-background">
+
+        <div class="results-content" id='resultsContent'>
+          <h2>GAME OVER</h2>
+          <h3>Top-10 results</h2>
+        <ol id='scoreList'></ol>
+        <div>
+          <button id='startNewGame'>Start New Game</button>
+          <button id='exit'>Exit</button>
+        </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+  <!-- bower:js -->
+  <script src='js/jquery.min.js'></script>
+    <script src='js/jquery-ui.min.js'></script>
+  <!-- endbower -->
+    <!-- <script src='js/main.js'></script> -->
+    <script src='js/main.build.js'></script>
+</body>
+</html>
