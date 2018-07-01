@@ -195,6 +195,7 @@ button {
   display: -ms-grid;
   display: grid;
   padding-top: 100px;
+  margin-right: 10px;
   grid-auto-flow: row;
   color: black;
   font-family: "muliregular"; }
