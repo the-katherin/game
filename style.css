@@ -1,0 +1,171 @@
+.header {
+  display: -ms-grid;
+  display: grid;
+  width: 100vw;
+  grid-auto-flow: row;
+  position: fixed;
+  z-index: 30;
+  background-color: #371e58;
+  background-color: #68237F;
+  color: white; }
+  .header__fixed-row {
+    display: -ms-grid;
+    display: grid;
+    padding: 20px 20px 10px;
+    grid-auto-flow: column;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center;
+    box-shadow: 0px 3px 5px -1px #757575; }
+  .header__nav {
+    padding: 20px;
+    grid-auto-flow: row;
+    grid-gap: 5px;
+    font-size: 18px; }
+
+.header__logo {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px; }
+
+.logo__picture {
+  max-width: 150px;
+  max-height: 25px; }
+
+.header__nav {
+  display: none; }
+  .header__nav--show {
+    display: -ms-grid;
+    display: grid; }
+
+.nav-toggle {
+  position: relative;
+  right: 10px;
+  height: 10px;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  transition: .5s ease-in-out; }
+  .nav-toggle--width {
+    width: 18px; }
+
+.nav-toggle-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 3px;
+  position: absolute;
+  left: 0; }
+  .nav-toggle-grid__burgerLine {
+    display: block;
+    height: 3px;
+    background: #0d7fa3;
+    border-radius: 9px;
+    opacity: 1;
+    transition: .25s ease-in-out; }
+    .nav-toggle-grid__burgerLine--hide {
+      width: 0px; }
+    .nav-toggle-grid__burgerLine--rotate45d {
+      transform: rotate(45deg);
+      position: absolute; }
+    .nav-toggle-grid__burgerLine--rotate-45d {
+      transform: rotate(-45deg);
+      position: absolute; }
+
+.section-main {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 20px;
+  text-align: center;
+  -ms-grid-column-align: center;
+      justify-items: center;
+  -ms-flex-pack: stretch;
+      justify-content: stretch; }
+  .section-main__title {
+    font-size: 36px; }
+  .section-main__trainImg {
+    max-height: 440px;
+    width: 100%; }
+  .section-main__date {
+    font-size: 25px; }
+  .section-main__registerBtn {
+    border-radius: 10px;
+    padding: 10px 15px; }
+    .section-main__registerBtn:hover {
+      border-bottom: 1px solid green;
+      color: blue; }
+
+@font-face {
+  font-family: 'rokkittmedium';
+  src: url(fonts/rokkitt-medium-webfont.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'rokkittextrabold';
+  src: url(fonts/rokkitt-extrabold-webfont.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'rokkittregular';
+  src: url(fonts/rokkitt-regular-webfont.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'rokkittsemibold';
+  src: url(fonts/rokkitt-semibold-webfont.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'rokkittthin';
+  src: url(fonts/rokkitt-thin-webfont.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'rokkittbold';
+  src: url(fonts/rokkitt-bold-webfont.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'rokkittlight';
+  src: url(fonts/rokkitt-light-webfont.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ol, ul {
+  list-style: none; }
+
+h2 {
+  text-transform: uppercase;
+  color: #f4004a;
+  font-family: 'rokkittbold'; }
+
+h1 {
+  font-family: 'rokkittextrabold';
+  font-size: 20px;
+  color: #C9131B;
+  color: #f4004a; }
+
+.content {
+  display: -ms-grid;
+  display: grid;
+  padding-top: 100px;
+  grid-auto-flow: row;
+  color: #6E6E6E;
+  font-family: "rokkittregular"; }
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MiLCJzb3VyY2VSb290IjoiIn0=*/
