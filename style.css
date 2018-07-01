@@ -1,7 +1,7 @@
 .header {
   display: -ms-grid;
   display: grid;
-  width: 98vw;
+  width: 98%;
   grid-auto-flow: row;
   position: fixed;
   z-index: 30; }
@@ -194,6 +194,7 @@ button {
 .content {
   display: -ms-grid;
   display: grid;
+  width: 98%;
   padding-top: 100px;
   grid-auto-flow: row;
   color: black;
