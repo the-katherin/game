@@ -1,7 +1,7 @@
 .header {
   display: -ms-grid;
   display: grid;
-  width: 98%;
+  width: 100vw;
   grid-auto-flow: row;
   position: fixed;
   z-index: 30; }
@@ -102,7 +102,7 @@
       justify-content: stretch; }
   .section-main__trainImg {
     max-height: 440px;
-    width: 98vw; }
+    width: 100%; }
 
 @media (min-width: 768px) {
   .section-main__title {
@@ -194,7 +194,6 @@ button {
 .content {
   display: -ms-grid;
   display: grid;
-  width: 98%;
   padding-top: 100px;
   grid-auto-flow: row;
   color: black;
