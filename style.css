@@ -1,7 +1,7 @@
 .header {
   display: -ms-grid;
   display: grid;
-  width: 100vw;
+  width: 98vw;
   grid-auto-flow: row;
   position: fixed;
   z-index: 30; }
@@ -195,7 +195,6 @@ button {
   display: -ms-grid;
   display: grid;
   padding-top: 100px;
-  margin-right: 10px;
   grid-auto-flow: row;
   color: black;
   font-family: "muliregular"; }
