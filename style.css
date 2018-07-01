@@ -102,7 +102,7 @@
       justify-content: stretch; }
   .section-main__trainImg {
     max-height: 440px;
-    width: 100%; }
+    width: 98vw; }
 
 @media (min-width: 768px) {
   .section-main__title {
