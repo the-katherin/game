@@ -2,37 +2,160 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hackatrain</title>
-  
-<link href="style.css" rel="stylesheet"></head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <!-- <link rel="stylesheet" href='landingPage/css/style.css'> -->
+  <link rel="stylesheet" href='landingPage/styles/style.css'>
+  <link rel="stylesheet" href="landingPage/styles/normalize.css" type="text/css">
+
+</head>
 
 <body>
 
+  <section class='main'>
 
-    <div class="content" id='content'>
+    <header>
+      <menu>
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#rules">Game rules</a>
+          </li>
+          <li>
+            <a href="#author">Author</a>
+          </li>
+          <li>
+            <a href='game/index.html' class="play">Let's play</a>
+          </li>
+        </ul>
+      </menu>
+    </header>
 
-        <div class="main" id="main">
-
-        </div>
-
-        <div class="sections-wrapper" id="sections">
-
-        </div>
-
+    <div class='welcomeBlock'>
+      <h1>Welcome to Young-Genius Game!</h1>
+      <button class='play' id='playButton'>
+        <a href='game/index.html'>Let's play</a>
+      </button>
     </div>
 
-    <footer>
-        <p>Live.Code.Die.Refactor</p>
-    </footer>
+  </section>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous">
-        </script>
+  <section class='about' id='about'>
+
+    <div class="game-description">
+      <div>
+        <h2>For whom</h2>
+        <p>This is a simple game for 6-10-year-old children or kitties.</p>
+      </div>
+      <div>
+        <h2>How much</h2>
+        <p>The game is free. But if you like, you can donate the author. She'll buy some programming books for your donations.</p>
+      </div>
+      <div>
+        <h2>System requirements</h2>
+        <p>The latest version of Google Chrome should be installed. You'll need also some working computer for that, preferably
+          with a mouse, keyboard and screen.</p>
+      </div>
+      <div>
+        <h2>Display Resolution</h2>
+        <p>800 × 600 pixels or sup.</p>
+      </div>
+    </div>
+
+    <div class='screenshots'>
+      <img src="landingPage/img/game-screenshots/Screenshot1.png" alt="">
+      <img src="landingPage/img/game-screenshots/Screenshot2.png" alt="">
+      <img src="landingPage/img/game-screenshots/Screenshot3.png" alt="">
+      <img src="landingPage/img/game-screenshots/Screenshot4.png" alt="">
+      <img src="landingPage/img/game-screenshots/Screenshot5.png" alt="">
+    </div>
+
+  </section>
+
+  <section class='rules' id='rules'>
+    <h2>Game rules</h2>
+    <p>The first rule: there is no rules.</p>
+    <p>The second rule: break the rules and win!</p>
+    <div class='game-controls'>
+      <h3 class='game-controls__header'>Game controls</h3>
+
+      <div class='game-controls__rules'>
+
+        <div class="rule">
+          <h3>Sortable task</h3>
+          <p>Tab - Next Item</p>
+          <p>Shift+Tab - Previous Item</p>
+          <p>Up Arrow / Left Arrow - Move item left</p>
+          <p>Down Arrow / Right Arrow - Move item right</p>
+          <p>"h" / Home - Move item to front</p>
+          <p>"e" / End - Move item to end</p>
+          <p> "r" - Reverse the list order</p>
+          <p>"s" - Shuffle the list</p>
+          <p>"Enter" - submit </p>
+        </div>
+        <div class="rule">
+          <h3>Menu</h3>
+          <p> Alt - open menu </p>
+          <p> Esc - close menu </p>
+          <p>Use Up and Down arrows to navigate</p>
+          <h3> Task Choosing </h3>
+          <p>Space - open tasks</p>
+          <p> Esc - close tasks </p>
+          <p>Use Up and Down arrows to navigate</p>
+        </div>
+        <div class="rule">
+
+        </div>
+        <div class="rule">
+          <h3> Answer Window </h3>
+          <p>Tab - Next Item</p>
+          <p>Shift+Tab - Previous Item</p>
+          <p>Enter - submit your answer </p>
+          <p>(Tab should be on submit button)</p>
+          <h3> Form Window </h3>
+          <p>Tab - Next Item</p>
+          <p>Shift+Tab - Previous Item</p>
+          <p>Enter - submit and launch the game </p>
+          <p>(Tab should be on submit button)</p>
+        </div>
+        <div class="rule">
+
+        </div>
 
 
-<script type="text/javascript" src="js/main.build.js"></script></body>
+      </div>
+
+    </div>
+  </section>
+
+  <section class='author' id='author'>
+    <h2>Meet the author</h2>
+    <img class="author-photo" src="landingPage/img/cunning-raccoon.jpg" alt="cunning raccoon">
+    <p>Created by Katerina Turikova. Inspired by and fascinated with Frontend!</p>
+    <a href="https://www.github.com/the-katherin" target="_blank">
+      <img class="github-icon" src="landingPage/img/github-icon.png" alt="github icon">
+    </a>
+  </section>
+
+  <footer> ©2018 MyGame.net. No rights reserved. My Group Limited, Some Avenue, Nassau, P.O. Box 77777, The Bahamas.
+  </footer>
+
+
+
+  <script src='landingPage/js/jquery.min.js'></script>
+
+
+  <!-- <script src='js/main.js'></script> -->
+  <script src='landingPage/js/main.build.js'></script>
+
+
+
+
+</body>
 
 </html>

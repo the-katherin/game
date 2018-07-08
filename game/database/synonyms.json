@@ -1,0 +1,390 @@
+[
+    {
+        "word": "firmly",
+        "synonym": "hardly"
+    },
+    {
+        "word": "said",
+        "synonym": "declared"
+    },
+    {
+        "word": "happy",
+        "synonym": "joyful"
+    },
+    {
+        "word": "good",
+        "synonym": "excellent"
+    },
+    {
+        "word": "sad",
+        "synonym": "melancholy"
+    },
+    {
+        "word": "scary",
+        "synonym": "eerie"
+    },
+    {
+        "word": "hi",
+        "synonym": "hello"
+    },
+    {
+        "word": "portent",
+        "synonym": "presage"
+    },
+    {
+        "word": "overwhelming",
+        "synonym": "astonishing"
+    },
+    {
+        "word": "love",
+        "synonym": "adore"
+    },
+    {
+        "word": "guardian",
+        "synonym": "protector"
+    },
+    {
+        "word": "warrior",
+        "synonym": "fighter"
+    },
+    {
+        "word": "persistent",
+        "synonym": "firm"
+    },
+    {
+        "word": "terraqueous",
+        "synonym": "amphibian"
+    },
+    {
+        "word": "friend",
+        "synonym": "buddy"
+    },
+    {
+        "word": "help",
+        "synonym": "aid"
+    },
+    {
+        "word": "froth",
+        "synonym": "foam"
+    },
+    {
+        "word": "delicious",
+        "synonym": "tasty"
+    },
+    {
+        "word": "cabin",
+        "synonym": "shack"
+    },
+    {
+        "word": "big",
+        "synonym": "large"
+    },
+    {
+        "word": "brave",
+        "synonym": "courageous"
+    },
+    {
+        "word": "hero",
+        "synonym": "champion"
+    },
+    {
+        "word": "awesome",
+        "synonym": "impressive"
+    },
+    {
+        "word": "obstinate",
+        "synonym": "stubborn"
+    },
+    {
+        "word": "bad",
+        "synonym": "evil"
+    },
+    {
+        "word": "huge",
+        "synonym": "enormous"
+    },
+    {
+        "word": "disturbed",
+        "synonym": "distressed"
+    },
+    {
+        "word": "evidence",
+        "synonym": "proof"
+    },
+    {
+        "word": "rigid",
+        "synonym": "stiff"
+    },
+    {
+        "word": "smart",
+        "synonym": "intelligent"
+    },
+    {
+        "word": "bias",
+        "synonym": "mindset"
+    },
+    {
+        "word": "flexible",
+        "synonym": "pliant"
+    },
+    {
+        "word": "furthermore",
+        "synonym": "moreover"
+    },
+    {
+        "word": "very",
+        "synonym": "extremely"
+    },
+    {
+        "word": "status",
+        "synonym": "condition"
+    },
+    {
+        "word": "dark",
+        "synonym": "gloomy"
+    },
+    {
+        "word": "great",
+        "synonym": "splendid"
+    },
+    {
+        "word": "commotion",
+        "synonym": "disturbance"
+    },
+    {
+        "word": "doggery",
+        "synonym": "critter"
+    },
+    {
+        "word": "dog",
+        "synonym": "hound"
+    },
+    {
+        "word": "freedom",
+        "synonym": "liberty"
+    },
+    {
+        "word": "peculiar",
+        "synonym": "odd"
+    },
+    {
+        "word": "poop",
+        "synonym": "crap"
+    },
+    {
+        "word": "important",
+        "synonym": "significant"
+    },
+    {
+        "word": "hussive",
+        "synonym": "housewife"
+    },
+    {
+        "word": "thankful",
+        "synonym": "grateful"
+    },
+    {
+        "word": "fashion",
+        "synonym": "style"
+    },
+    {
+        "word": "strong",
+        "synonym": "sound"
+    },
+    {
+        "word": "math",
+        "synonym": "mathematics"
+    },
+    {
+        "word": "awful",
+        "synonym": "terrible"
+    },
+    {
+        "word": "red",
+        "synonym": "crimson"
+    },
+    {
+        "word": "kind",
+        "synonym": "considerate"
+    },
+    {
+        "word": "fast",
+        "synonym": "quick"
+    },
+    {
+        "word": "readiness",
+        "synonym": "preparedness"
+    },
+    {
+        "word": "predict",
+        "synonym": "forecast"
+    },
+    {
+        "word": "resolute",
+        "synonym": "determined"
+    },
+    {
+        "word": "confidence",
+        "synonym": "conviction"
+    },
+    {
+        "word": "summit",
+        "synonym": "peak"
+    },
+    {
+        "word": "astromancy",
+        "synonym": "astrology"
+    },
+    {
+        "word": "quiet",
+        "synonym": "calm"
+    },
+    {
+        "word": "precise",
+        "synonym": "exact"
+    },
+    {
+        "word": "hard",
+        "synonym": "tough"
+    },
+    {
+        "word": "display",
+        "synonym": "show"
+    },
+    {
+        "word": "surprising",
+        "synonym": "shocking"
+    },
+    {
+        "word": "gratitude",
+        "synonym": "appreciation"
+    },
+    {
+        "word": "landforms",
+        "synonym": "landscape"
+    },
+    {
+        "word": "walk",
+        "synonym": "stroll"
+    },
+    {
+        "word": "doctrine",
+        "synonym": "philosophy"
+    },
+    {
+        "word": "anxious",
+        "synonym": "nervous"
+    },
+    {
+        "word": "hurt",
+        "synonym": "injured"
+    },
+    {
+        "word": "sexy",
+        "synonym": "hot"
+    },
+    {
+        "word": "annoyed",
+        "synonym": "irritated"
+    },
+    {
+        "word": "homemaker",
+        "synonym": "goodwife"
+    },
+    {
+        "word": "attractive",
+        "synonym": "charming"
+    },
+    {
+        "word": "depressed",
+        "synonym": "unhappy"
+    },
+    {
+        "word": "weird",
+        "synonym": "strange"
+    },
+    {
+        "word": "solution",
+        "synonym": "answer"
+    },
+    {
+        "word": "handsome",
+        "synonym": "good-looking"
+    },
+    {
+        "word": "focus",
+        "synonym": "concentrate"
+    },
+    {
+        "word": "diminish",
+        "synonym": "reduce"
+    },
+    {
+        "word": "complex",
+        "synonym": "complicated"
+    },
+    {
+        "word": "peaceful",
+        "synonym": "tranquil"
+    },
+    {
+        "word": "soldier",
+        "synonym": "fearless"
+    },
+    {
+        "word": "alacrity",
+        "synonym": "willingness"
+    },
+    {
+        "word": "respect",
+        "synonym": "regard"
+    },
+    {
+        "word": "modest",
+        "synonym": "humble"
+    },
+    {
+        "word": "design",
+        "synonym": "plan"
+    },
+    {
+        "word": "sign",
+        "synonym": "augury"
+    },
+    {
+        "word": "serious",
+        "synonym": "grave"
+    },
+    {
+        "word": "advance",
+        "synonym": "progress"
+    },
+    {
+        "word": "many",
+        "synonym": "numerous"
+    },
+    {
+        "word": "immense",
+        "synonym": "colossal"
+    },
+    {
+        "word": "fear",
+        "synonym": "dread"
+    },
+    {
+        "word": "severe",
+        "synonym": "harsh"
+    },
+    {
+        "word": "venture",
+        "synonym": "risk"
+    },
+    {
+        "word": "wash",
+        "synonym": "bathe"
+    },
+    {
+        "word": "antonym",
+        "synonym": "opposite"
+    }
+]
